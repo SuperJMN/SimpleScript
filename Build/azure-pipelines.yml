@@ -41,7 +41,7 @@ stages:
       - task: CopyFiles@2
         inputs:
           SourceFolder: 'Source'
-          Contents: '**\Iris*.nupkg'
+          Contents: '**\Iridio*.nupkg'
           TargetFolder: '$(build.artifactstagingdirectory)'
           flattenFolders: true
       - task: PublishBuildArtifacts@1
